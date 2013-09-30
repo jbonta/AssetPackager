@@ -3,4 +3,3 @@ setup.cfg
 setup.py
 AssetPackager/AssetPackager.py
 AssetPackager/__init__.py
-test/test_asset_packager.py

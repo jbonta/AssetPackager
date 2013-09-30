@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
     name = 'AssetPackager',
     packages = ['AssetPackager'], # this must be the same as the name above
-    version = '0.1',
+    version = '0.1.1',
     description = 'Utility for determining and making CSS/JS packages from list of paths',
     author = 'Jason Bonta',
     author_email = 'jbonta@gmail.com',
