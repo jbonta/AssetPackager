@@ -7,7 +7,7 @@ setup(
     author = 'Jason Bonta',
     author_email = 'jbonta@gmail.com',
     url = 'https://github.com/jbonta/AssetPackager',   # use the URL to the github repo
-    download_url = 'https://github.com/jbonta/AssetPackager/tarball/0.2', # I'll explain this in a second
+    download_url = 'https://github.com/jbonta/AssetPackager/tarball/0.3', # I'll explain this in a second
     keywords = ['CSS', 'JS', 'static', 'analysis', 'dependency', 'resources'], # arbitrary keywords
     classifiers = [],
 )
