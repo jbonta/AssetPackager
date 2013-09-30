@@ -10,4 +10,7 @@ setup(
     download_url = 'https://github.com/jbonta/AssetPackager/tarball/0.3', # I'll explain this in a second
     keywords = ['CSS', 'JS', 'static', 'analysis', 'dependency', 'resources'], # arbitrary keywords
     classifiers = [],
+    install_requires=[
+      'yuicompressor >= 2.4.7',
+    ],
 )
