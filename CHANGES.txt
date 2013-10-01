@@ -1,2 +1,3 @@
 v0.1.0 (2013-09-27) -- Initial release.
 v0.1.1 (2013-09-29) -- Pypi
+v0.2.0 (2013-09-29) -- import everything into namespace for direct "import AssetPackager"
