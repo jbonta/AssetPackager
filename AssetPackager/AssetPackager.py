@@ -94,7 +94,7 @@ def package(input_list, output, compress=True, filename_markers_in_comments=True
     else:
       if in_file.startswith('//'):
         in_file = 'http:' + in_file
-      file_type = 'js' if in_file.endswith('js') else 'css'
+      file_type = 'css' if in_file.endswith('css') else 'js'
       cmd = YUI_COMMAND + ['--type=' + file_type] if compress else ['cat']
       p = Popen(cmd, stdout=out, stdin=PIPE, stderr=STDOUT)
       p.communicate(input=urllib2.urlopen(in_file).read())
