@@ -41,7 +41,8 @@ Calling:
 	[
       ['/static/jquery.js', '/static/sitecore.js'],
       ['/foo/stuff/lost.js'],                      
-      ['/foo/stuff/found.js'],                     
+      ['/foo/stuff/found.js'],
+      ['http://ajax.googleapis.com/ajax/libs/webfont.js'],
       ['/static/errorPage.css', '/static/404.css']
 	]
 	
