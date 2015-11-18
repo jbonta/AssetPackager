@@ -31,7 +31,7 @@ Calling:
 	    ['/static/jquery.js', '/static/sitecore.js', '/foo/stuff/found.js'],
 	    ['/static/errorPage.css', '/static/404.css'],
 	    ['/static/jquery.js', '/static/sitecore.js', 'http://ajax.googleapis.com/ajax/libs/webfont.js'],
-	    ['/static/jquery.js', '/static/sitecore.js'],
+	    ['/static/jquery.js', '/static/sitecore.js', 'a.js', 'b.js', 'c.js'],
 	    ['/static/jquery.js', '/static/sitecore.js']
 	  ]
 	 )
@@ -40,6 +40,7 @@ Calling:
 
 	[
       ['/static/jquery.js', '/static/sitecore.js'],
+      ['a.js', 'b.js', 'c.js'],
       ['/foo/stuff/lost.js'],                      
       ['/foo/stuff/found.js'],
       ['http://ajax.googleapis.com/ajax/libs/webfont.js'],
